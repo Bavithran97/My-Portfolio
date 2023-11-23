@@ -32,8 +32,6 @@
       font-size: 25px;
       color: #f64c08;
       font-weight: 800;
-
-
     }
 
     #navBut {
@@ -232,11 +230,11 @@
       font-size: 50px;
 
     }
-
+       
     #card-des div h5 {
       font-size: 30px;
       font-weight: 500;
-      margin-bottom: 10px;
+      margin-bottom: 10px; 
     }
 
     #card-des div a {
@@ -258,7 +256,7 @@
       color: black !important;
     }
 
-    #cont-mail p i {
+    #cont-mail p i { 
       padding: 10px;
       color: #f64c08;
       font-size: 25px;
@@ -317,6 +315,14 @@
       color: #f64c08;
     }
 
+    .btn-primary{
+      background-color: #EAC194 !important;
+    }
+
+    .btn{
+      background-color:#EAC194;
+    }
+
   </style>
 </head>
 
@@ -359,6 +365,8 @@
           <div class="header-text">
             <h1>Hello Everyone!!! I'm<br /><span> <b><i>Bavithran</i></b> </span></h1>
             <p><i>MERN Stack Developer</i></p>
+            <a class="btn" target="_blank" href="https://drive.google.com/file/d/1tdBlVXeoKAva0nYp2jEawgk12KqZMCV0/view?usp=sharing">RESUME</a>
+            <a class="btn" target="_blank" href="https://drive.google.com/file/d/1nOYxdwPNksL8MSDD4714REcY_VEi1tPZ/view?usp=sharing">CERTIFICATES</a> 
           </div>
         </div>
         <div class="col-md-12 col-lg-6 col-sm-12">
@@ -384,29 +392,27 @@
                 and apply algorithms to solve real-world problems.I can build scalable software and solve competitive
                 programming problems.
               </p>
-              <div class="tab-titles">
-
-                
-                <p class="tab-links active-link" id="education2" onclick="openTab('education','education2')">Education
-                </p>
+              <div class="tab-titles">              
+                <p class="tab-links active-link" id="education2" onclick="openTab('education','education2')">Education</p>
               </div>
-
               <div class="tab-contents justify-content-center active-tab " id="education">
                 <ul>
-                  <li><span>SSLC</span><br />CBSE with CGPA 8.4</li>
-                  <li><span>HSC</span><br />STATE BOARD with 87.58%</li>
                   <li><span>BE(AERONAUTICAL ENGINEERING)</span><br />RVS School of Engineering and Technology<span style="font-weight: bold;"> (CGPA 6.87)</span></li>
-                  <li><span>MERN Stack Certification <a href="https://drive.google.com/file/d/1nOYxdwPNksL8MSDD4714REcY_VEi1tPZ/view?usp=sharing" target="_blank" class="card-link">VIEW</a></span><br />GUVI, IIT Madras</li>
+                  <li><span>HSC</span><br />Vetri Vikas(B) Higher Secondary School<span style="font-weight: bold;"> (87.58%)</span></li>
+                  <li><span>SSLC</span><br />Shri Maharishi vidya Mandhir<span style="font-weight: bold;"> (CGPA 6.87)</span></li>
                 </ul>
 
+                <div class="tab-titles">              
+                  <p class="tab-links active-link" id="education2" onclick="openTab('education','education2')">Certification</p>
+                </div>
+                <div class="tab-contents justify-content-center active-tab" id="education">
+                  <ul>
+                    <li><span>Zen Full Stack Developer</span><br />GUVI, IIT Madras</li>
+                  </ul>
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
     </div>
     <div class="container" id="skills">
@@ -520,7 +526,7 @@
 
     <div id="project">
       <div class="container mt-4 mb-5">
-        <h1><u>Projects</u></h1>
+        <h1><u>Demo Projects</u></h1>
         <div class="row ">
 
           <div class="col-md-4  mt-sm-3 col-sm-12">
@@ -531,8 +537,11 @@
                 <h6 class="card-subtitle mb-2 text-muted">Description</h6>
                 <p class="card-text">Blockpedia is a secure web app enabling users to register with full AUTHENTICATION.For authention,datas are stored in REDUX Users create, edit, and delete blocks, exercising CRUD operations. The MongoDB database stores user data for future access.
                    The app supports seamless user interaction, allowing visits to others' blocks on the same site. Overall, it combines privacy, CRUD functionality for user experience.</p>
-                <a href="https://github.com/Bavithran97/Blog-app-Frontend" target="_blank" class="card-link">View</a>
-
+                <div class="button-container" style="display: flex; justify-content: space-between">
+                  <a class="btn btn-primary" target="_blank" href="https://github.com/Bavithran97/Blog-app-Frontend">Client</a>
+                  <a class="btn btn-primary" target="_blank" href="https://github.com/Bavithran97/Blog-app-BackEnd.git">Server</a>
+                  <a class="btn btn-primary" target="_blank" href="https://6553909a3e1a50007958eb18--sensational-jalebi-e5e47f.netlify.app/">Live Demo</a>
+                </div>
               </div>
             </div>
           </div>
@@ -545,8 +554,11 @@
                 <h6 class="card-subtitle mb-2 text-muted">Description</h6>
                 <p class="card-text">The Chatpedia application enables users to create an account with comprehensive AUTHENTICATION services including login, logout, password retrieval, and reset.
                   Once registered, users can message their friends within the application and create group chats. All chat records are stored in a MongoDB database, facilitated by SOCKET.IO for real-time communication. Access the live deployed web application via the provided URL.</p>
-                <a href="https://github.com/Bavithran97/chat-frontend" target="_blank" class="card-link">View</a>
-
+                <div class="button-container" style="display: flex; justify-content: space-between">
+                  <a class="btn btn-primary" target="_blank" href="https://github.com/Bavithran97/chat-frontend">Client</a>
+                  <a class="btn btn-primary" target="_blank" href="https://github.com/Bavithran97/chat-backend.git">Server</a>
+                  <a class="btn btn-primary" target="_blank" href="https://65467e86ffce14344068e550--lively-figolla-745b88.netlify.app">Live Demo</a>
+                </div>
               </div>
             </div>
           </div>
@@ -560,8 +572,11 @@
                 <p class="card-text">This bulk email application allows users to send emails to multiple recipients simultaneously. Users can also access a history of sent emails to various recipients.
                   The app offers secure Google account login for enhanced security, and it supports the inclusion of images in the email. The datas are also stored in MONGODB database for future reference.
                 </p>
-                <a href="https://github.com/Bavithran97/Bulk-Email-frontend" target="_blank" class="card-link">View</a>
-
+                <div class="button-container" style="display: flex; justify-content: space-between">
+                  <a class="btn btn-primary" target="_blank" href="https://github.com/Bavithran97/Bulk-Email-frontend">Client</a>
+                  <a class="btn btn-primary" target="_blank" href="https://github.com/Bavithran97/bulk-Email-backend.git">Server</a>
+                  <a class="btn btn-primary" target="_blank" href="https://654ddd8603b90c44acab76b1--tubular-tanuki-290ebd.netlify.app/">Live Demo</a>
+                </div>
               </div>
             </div>
 
@@ -577,11 +592,16 @@
                   Users can shop for items, submit reviews and ratings, and make secure payments using the STRIPE API.
                   Administrators have extensive control over orders, delivery statuses, product management, user profiles, and finances.
                   Access the admin dashboard with these credentials: 
-                  <span style="font-weight: bold;">Email: bavithran9214@gmail.com 
-                    Password: 123456</span>
+                  <span style="font-weight: bold;">
+                    Email: bavithran9214@gmail.com 
+                    Password: 123456
+                  </span>
                 </p>
-                <a href="https://github.com/Bavithran97/E-Commerce-MERN" target="_blank" class="card-link">View</a>
-
+                <div class="button-container" style="display: flex; justify-content: space-between">
+                  <a class="btn btn-primary" target="_blank" href="https://github.com/Bavithran97/E-Commerce-MERN">Client</a>
+                  <a class="btn btn-primary" target="_blank" href="https://github.com/Bavithran97/E-Commerce-MERN">Server</a>
+                  <a class="btn btn-primary" target="_blank" href="http://16.171.41.46:8000/">Live Demo</a>
+                </div>
               </div>
             </div>
 
